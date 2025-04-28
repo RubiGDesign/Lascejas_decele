@@ -1,0 +1,61 @@
+/* Paleta de colores */
+:root {
+  --marron-oscuro: #4b3621;
+  --rosa-suave: #d8a7b1;
+  --dorado: #c9b037;
+  --beige-claro: #f5f5dc;
+  --verde-gris: #2f4f4f;
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: var(--beige-claro);
+  color: var(--marron-oscuro);
+}
+
+header {
+  background-color: var(--marron-oscuro);
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav a {
+  color: var(--dorado);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: var(--rosa-suave);
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  color: var(--verde-gris);
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: var(--marron-oscuro);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.8em;
+}
